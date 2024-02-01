@@ -1,0 +1,11 @@
+check50:
+  checks:
+    hello world:
+      - run: python3 hello.py
+        stdout: Hello, world!
+        exit: 0
+    ex_1:
+    - run: python3 ex_1.py
+      stdin: Olena
+      stdout: Hello Olena
+      exit: 0
